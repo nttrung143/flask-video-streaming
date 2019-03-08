@@ -3,7 +3,7 @@ from base_camera import BaseCamera
 
 
 class Camera(BaseCamera):
-    video_source = 0
+    video_source = "rtmp://34.80.59.81/app/live"
 
     @staticmethod
     def set_video_source(source):
